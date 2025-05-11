@@ -1,0 +1,20 @@
+   {
+     "inputs": [
+       {
+         "type": "promptString",
+         "id": "gemini-key",
+         "description": "Gemini API Key",
+         "password": true
+       }
+     ],
+     "servers": {
+       "File Organizer": {
+         "type": "stdio",
+         "command": "${workspaceFolder}/.venv/bin/python",
+         "args": ["${workspaceFolder}/src/server.py"],
+         "env": {
+           "GOOGLE_API_KEY": "${input:gemini-key}"
+         }
+       }
+     }
+   }
