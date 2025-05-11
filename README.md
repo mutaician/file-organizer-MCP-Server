@@ -22,7 +22,7 @@ A Model Context Protocol (MCP) server that uses Google's Gemini Vision API to an
 
 1. Clone the repository:
 ```bash{:copy}
-git clone [repository-url]
+git clone https://github.com/mutaician/file-organizer-MCP-Server.git
 cd file-organizer-mcp
 ```
 
@@ -101,7 +101,6 @@ uv pip install -r requirements.txt
    - Keep screenshots clear and well-lit for better OCR
    - Verify organization results after each operation
    - Use the undo function if needed before trying again
-   ```
 
 ## Key Concepts
 
