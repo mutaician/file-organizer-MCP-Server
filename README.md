@@ -54,10 +54,10 @@ uv pip install -r requirements.txt
      "servers": {
        "File Organizer": {
          "type": "stdio",
-         "command": "\${workspaceFolder}/.venv/bin/python",
-         "args": ["\${workspaceFolder}/src/server.py"],
+         "command": "${workspaceFolder}/.venv/bin/python",
+         "args": ["${workspaceFolder}/src/server.py"],
          "env": {
-           "GOOGLE_API_KEY": "\${input:gemini-key}"
+           "GOOGLE_API_KEY": "${input:gemini-key}"
          }
        }
      }
